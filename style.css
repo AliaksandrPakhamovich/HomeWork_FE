@@ -1,0 +1,60 @@
+p{  font-size: 16px ; }
+  
+.head{text-align: center;
+    color: red;
+}
+.games {    
+    border: 2px solid black;
+     overflow: auto;
+     padding: 5px;
+     background-color: rgb(150, 190, 85);
+     font-weight: 600;
+}
+.games img{
+    float: left;
+    margin: 10px;
+    width: 500px;
+    height: 350px;
+}
+.films{
+    border: 2px solid black;
+    margin: 10px ;
+    padding: 5px;
+    background-color:silver ;
+    font-weight: 600;
+}
+.films img{
+    width: 800px;
+    height: 400px;
+    margin: 10px;}
+
+    .work{
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        background-color: cadetblue;
+        font-weight: 600;
+    }
+    .work img{
+        width: 600px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .sites{
+        border: 2px solid black;
+        margin: 20px;
+        text-align: center;
+    }
+     .sites img{     
+        width: 40px;
+        height: 40px;
+        margin: 2px;
+        padding: 2px;
+        display: inline-block;
+     }   
+        
+
+    
+
+
