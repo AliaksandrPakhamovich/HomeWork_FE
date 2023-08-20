@@ -1,6 +1,109 @@
-.table1, td, th {
-    border: 1px solid black;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.img{
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smile1{
+    border: 2px solid green;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: fixed;
+    margin: 50px;
+}
+
+.eye1{
+    border: 2px solid white;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute ;
+    top: 60px;
+    right: 50px;
+    }
+
+.eye2{
+    border: 2px solid white;
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute ;
+    top: 60px;
+    left: 50px;
+   }
+
+.nose{
+    border: 2px solid white;
+    background-color: white;
     width: 40px;
-    height: 25px;}
+    height: 40px;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+
+.smile{
+    border: 2px solid white;
+    background-color: white;
+    width: 150px;
+    height: 15px;
+    position: absolute;
+    top: 210px;
+    left: 70px; 
+}
+
+.smile2{
+    border: 2px solid yellow;
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+   position: absolute;
+    margin: 50px;
+    left: 600px;
+}
+
+.nose1{
+    border: 2px solid white;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+    z-index: 1;
+}
+
+.smile3{
+    border: 2px solid white;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 75px;
+    }
+
+    .smile4{
+        border: 2px solid yellow;
+        background-color: yellow;
+        width: 160px;
+        height: 160px;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 50px;
+        left: 70px; 
+    }
+
+
