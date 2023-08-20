@@ -1,50 +1,34 @@
-// let d = 7;
-// console.log('Значение = ' + d);
-// console.log('Значение в квадрате = ' +d**2);
-// console.log('Значение в кубе = ' + d**3);
+// console.log('Старт');
+// for (let i = 1; i <= 9; i++){
+//     console.log(i);
+// }
+// console.log('Финиш');
 
 
-
-// let  number = prompt('Введите целое число:');
-// if (number > 0 ){
-//     let number2 = number * 2;
-//     console.log('Ваше значение: ' + number2);
-// } else{
-//     console.log('Введенное не положительное число.');
+// for (let i = 10; i <= 99; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log(i);
+//     }
 // }
 
 
-// let num1 = Number(prompt('Введите первое целое число:'));
-// let num2 = Number(prompt('Введите второе целое число:'));
-// if (num1 > num2){
-//     let sum = num1 + num2;
-//     console.log('Сумма чисел:' + sum);
-// } else if(num1 < num2){
-//     let product = num1 * num2;
-//     console.log('Произведение чисел:' + product);
-// }else{
-//     console.log('Числа одинаковые');
+
+let numbers = [13, 34, 1, 78, 7, 3, -35, 48, -4 ];
+
+// for ( let i = 0; i < numbers.length; i++){
+//     if ( numbers[i] >= 15){
+//         console.log(numbers[i]);
+//     }
 // }
 
-
-// let num = Number(prompt('Введите целое число:'));
-// if(num < 0){
-//     let num1 = num**2;
-//     console.log('Число в квадрате: ' + num1);
-// }else{
-//     console.log('Ошибка');
+// for (let i =0; i < numbers.length; i++){
+//     if (numbers[i] %2 !==0 ){
+//         console.log(numbers[i]);
+//     }
 // }
 
-
-let students = Number(prompt('Введите количество учеников:'));
-let chairs = Number(prompt('Введите количество стульев в классе:'));
-
-if(students <= chairs){
-    console.log('Стульев хватает.');
-}else{
-    console.log('Стульев не хватает.');
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 3 === 0) {
+        console.log(numbers[i]);
+    }
 }
-
-
-
-
